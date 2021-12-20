@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cristal-background {
+    width: 161px;
+    height: 161px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(#ff0000d6 -18%, white 66%);
+
+}
+
+.cristal-img {
+    width: 100px;
+}
+
+p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #a70ebc;
+}
+
+.count-cristal {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+
+.count-cristal img {
+    width: 51px;
+    margin: -31px;
+    height: 51px;
+}
+
+.entrance-cristal {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.entrance-p {
+    cursor: pointer;
+}
+.out-p{
+    cursor: pointer;
+    display: none;
+}
+.content {
+    margin: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.body {
+    width: 325px;
+    height: 206px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reg{
+    display: none;
+}
